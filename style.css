@@ -16,8 +16,9 @@ color: darkred;
 }
 
 .buttonClass {
-
- max-height: 10rem ;
+height: 5rem;
+width: 7.5rem;
+ max-height: 15rem ;
     color: lemonchiffon;
     background-color: brown;
 
@@ -78,4 +79,22 @@ color: darkred;
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity:1 ;}
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    width: 90%;
+    padding: 15px;
+    border: 1px solid #007d87;
+    margin-bottom: 5px;
+    opacity: 0.8;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
 }
