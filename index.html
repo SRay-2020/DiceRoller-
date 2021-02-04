@@ -42,7 +42,7 @@
             
 <div class="col-6" id ="Score">This should display here---></div>
 
-<div class="col-6" id ="message">This should be here </div>
+<div class="col-6" id ="message"></div>
 
 </div>
 
@@ -86,10 +86,13 @@ function who_Won (rand1,rand2,rand3,rand4) {
     let decider = winner(player_points, enemy_points);
     document.getElementById("message").text = "GAME OVER";
     //DISPLAY SCORE OF DIE
-    document.getElementById("score1").innerHTML = player_points + decider;
-    document.getElementById("score2").innerHTML = enemy_points + decider;
+    document.getElementById("score1").innerHTML = player_points;
+    document.getElementById("score2").innerHTML = enemy_points;
 
 }
+
+
+
 
 function winner (player, enemy) {
 
